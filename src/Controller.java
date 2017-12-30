@@ -17,8 +17,7 @@ public class Controller{
 	
 	public static void recreateBot(){
 		disconnectBot();
-		bot.logBot.dispose();
-		bot.dispose();
+		cleanBot();
 		bot = null;
 		createBot();
 	}
@@ -32,11 +31,15 @@ public class Controller{
 		}
 	}
 	
-	public static void exitBot(){
-		disconnectBot();
+	private static void cleanBot(){
 		bot.logBot.dispose();
 		bot.gui.dispose();
 		bot.dispose();
+	}
+	
+	public static void exitBot(){
+		disconnectBot();
+		cleanBot();
 		System.exit(0);
 	}
 	

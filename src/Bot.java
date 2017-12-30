@@ -33,7 +33,7 @@ public class Bot extends PircBot{
 		logBot = new LogBot("TheBattleStar", true);
 		
 		//Creates gui
-		gui = new BotGUI();
+		gui = new BotGUI(this);
 	}
 	
 	public void runCfgRead(){
@@ -107,6 +107,7 @@ public class Bot extends PircBot{
 					for(int u=0; u < array.length; u++){
 						array[u] = array[u].trim();
 					}
+					
 					log("Adminchannels list has size " + array.length);
 					adminChannels = array;
 				}
@@ -179,6 +180,22 @@ public class Bot extends PircBot{
 			}
 		}
     }
+	
+	public void simulateOnMessage(String channel, String sender, String message){
+		String login = "default";
+		String hostname = "default";
+		
+		Channel cs[] = book.getChannels();
+		for(int i=0; i < cs.length; i++){
+			if(cs[i] != null){
+				if(cs[i].getChannelName().equalsIgnoreCase(channel)){
+					//Execute the command according to the channel:
+				
+					cs[i].executeCommand(sender, login, hostname, message);
+				}
+			}
+		}
+	}
 	
 	public void onJoin(String channel, String sender, String login, String hostname){
 		// Void

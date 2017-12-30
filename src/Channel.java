@@ -5,7 +5,7 @@ public class Channel{
 	public static int TYPE_NORMAL = 1;
 	public static int TYPE_ADMIN = 0;
 	
-	public Bot bot;
+	protected Bot bot;
 	
 	private String name = "default";
 	
@@ -21,7 +21,7 @@ public class Channel{
 	private boolean configured = false;
 	private boolean connected = false;
 	
-	private String admins[] = {"PegasusScourge", "PegasusScourge_IRC"};
+	private String admins[] = {"PegasusScourge", "PegasusScourge_IRC", "TheBattleStar"};
 	
 	//INIT METHODS
 	
