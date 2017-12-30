@@ -141,20 +141,6 @@ public class Commands{
 			}
 		}
 			
-		/* TESTING - REMOVED IN FAVOUR OF NON-TOGGLE ADMIN CHANNEL
-		//Command: admin
-		//Type = normal, but needs admin permission
-		if(message.equals("!admin") && isNotLockedChannel()){
-			parent.setChannelType(Channel.TYPE_ADMIN);
-			
-			if(!isAdmin(sender)){
-				parent.bot.sendMessage(parent.bot.owner, "Channel " + channel + " has had Admin mode enabled by " + sender);
-				parent.bot.sendMessage(channel, "WARNING: You are not an admin, " + sender + ", so you will not be able to use the admin commands...");
-			}
-			parent.bot.sendMessage(channel, "This channel is NOW an admin channel.");
-		}
-		*/
-			
 		//------------------------------------------------------------------- NORMAL HELP -------------------------------
 		//Command: help
 		//Type = normal
@@ -289,17 +275,6 @@ public class Commands{
 			parent.bot.sendMessage(channel2, "THIS IS AN INVASION BY [ONI]");
 			parent.bot.sendMessage(channel2, "PREPARE YOUR ACUs, COMMANDERS!");
 		}
-				
-				
-		/* TESTING - REMOVED IN FAVOUR OF NON-TOGGLE ADMIN CHANNELS
-		//-------------------------------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SUBTYPE - Admin channel but not admin permission ~~~~~~~~~~~~~~~~
-		//Command: unadmin
-		//Type = admin
-		if(message.equals("!unadmin") && isNotLockedChannel()){
-			parent.bot.sendMessage(channel, "This channel is NOW NOT an admin channel.");
-			parent.setChannelType(Channel.TYPE_NORMAL);
-		}
-		*/
 		
 		//------------------------------------------------------------------- ADMIN HELP -------------------------------
 		//Command: help
