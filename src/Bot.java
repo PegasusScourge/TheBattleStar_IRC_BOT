@@ -22,6 +22,7 @@ public class Bot extends PircBot{
 	public String owner = "PegasusScourge";
 	
 	protected LogBot logBot = null;
+	protected BotGUI gui = null;
 	
 	private ChannelBook book = new ChannelBook();
 	
@@ -30,6 +31,9 @@ public class Bot extends PircBot{
 	public void BOT_INIT(){
 		//Creates logs
 		logBot = new LogBot("TheBattleStar", true);
+		
+		//Creates gui
+		gui = new BotGUI();
 	}
 	
 	public void runCfgRead(){

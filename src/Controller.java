@@ -35,6 +35,7 @@ public class Controller{
 	public static void exitBot(){
 		disconnectBot();
 		bot.logBot.dispose();
+		bot.gui.dispose();
 		bot.dispose();
 		System.exit(0);
 	}
