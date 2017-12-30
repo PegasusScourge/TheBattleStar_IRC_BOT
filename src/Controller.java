@@ -17,6 +17,7 @@ public class Controller{
 	
 	public static void recreateBot(){
 		disconnectBot();
+		bot.logBot.dispose();
 		bot.dispose();
 		bot = null;
 		createBot();
