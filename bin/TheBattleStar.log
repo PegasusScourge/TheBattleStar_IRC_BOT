@@ -1,0 +1,127 @@
+TheBattleStar: Pirc IRC bot
+Reading cfg...
+[TheBattleStar]Autojoin list has size 2
+[TheBattleStar]Blockedusers list has size 1
+[TheBattleStar]Lockedchannels list has size 1
+[TheBattleStar]Adminchannels list has size 1
+[TheBattleStar]Autojoin list has size 1
+[TheBattleStar]Read complete
+[TheBattleStar]*** Connected to server.
+[TheBattleStar]>>>NICK TheBattleStar
+[TheBattleStar]>>>USER PircBot 8 * :PircBot 1.5.0 Java IRC Bot - www.jibble.org
+[TheBattleStar]:irc.faforever.com NOTICE * :*** Looking up your hostname...
+[TheBattleStar]:irc.faforever.com NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+[TheBattleStar]PING :1D353E7B
+[TheBattleStar]>>>PONG :1D353E7B
+[TheBattleStar]:irc.faforever.com 001 TheBattleStar :Welcome to the FAForever IRC Network TheBattleStar!PircBot@31.205.1.117
+[TheBattleStar]:irc.faforever.com 002 TheBattleStar :Your host is irc.faforever.com, running version UnrealIRCd-4.0.1
+[TheBattleStar]:irc.faforever.com 003 TheBattleStar :This server was created Mon Oct 9 2017 at 06:53:13 UTC
+[TheBattleStar]:irc.faforever.com 004 TheBattleStar irc.faforever.com UnrealIRCd-4.0.1 iowrsxzdHtIRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+[TheBattleStar]*** Logged onto server.
+[TheBattleStar]>>>LIST
+[TheBattleStar]:irc.faforever.com 005 TheBattleStar UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+[TheBattleStar]:irc.faforever.com 005 TheBattleStar MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=FAForever CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+[TheBattleStar]:irc.faforever.com 005 TheBattleStar STATUSMSG=~&@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+[TheBattleStar]:irc.faforever.com 396 TheBattleStar 1BF97D83.C4183B36.4731D30F.IP :is now your displayed host
+[TheBattleStar]:irc.faforever.com 251 TheBattleStar :There are 1 users and 615 invisible on 2 servers
+[TheBattleStar]:irc.faforever.com 252 TheBattleStar 11 :operator(s) online
+[TheBattleStar]:irc.faforever.com 253 TheBattleStar 1 :unknown connection(s)
+[TheBattleStar]:irc.faforever.com 254 TheBattleStar 64 :channels formed
+[TheBattleStar]:irc.faforever.com 255 TheBattleStar :I have 605 clients and 1 servers
+[TheBattleStar]Run connect: #TheBattleStar_admin, startsLocked = false, shouldAdmin = true
+[TheBattleStar]>>>JOIN #TheBattleStar_admin
+[TheBattleStar]Run connect: #TheBattleStar_blocked, startsLocked = true, shouldAdmin = false
+[TheBattleStar]>>>JOIN #TheBattleStar_blocked
+[TheBattleStar]:irc.faforever.com 265 TheBattleStar 605 1169 :Current local users 605, max 1169
+[TheBattleStar]:irc.faforever.com 266 TheBattleStar 616 1222 :Current global users 616, max 1222
+[TheBattleStar]:irc.faforever.com 375 TheBattleStar :- irc.faforever.com Message of the Day - 
+[TheBattleStar]:irc.faforever.com 372 TheBattleStar :- 9/10/2017 4:54
+[TheBattleStar]:irc.faforever.com 372 TheBattleStar :- Welcome to Forged Alliance Forever
+[TheBattleStar]:irc.faforever.com 376 TheBattleStar :End of /MOTD command.
+[TheBattleStar]:TheBattleStar MODE TheBattleStar :+iwx
+[TheBattleStar]:irc.faforever.com 321 TheBattleStar Channel :Users  Name
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #lewd 2 :[+nt] flat is justice
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #1 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #GDI_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #paul 2 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #gap_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #SNF_clan 9 :[+nt] Never give up, Never surrender! || http://specialnoobforces.boards.net/thread/19/50-clan-tournament
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #babechannel 3 :[+nt] HEIL HITLER
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #qai_channel 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #PSI_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #A_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #WaR_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #SIR_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #JBG_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #PRO_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #e_clan 3 :[+nt] Our culture & history: https://puu.sh/rrMwe/6565246879.png || Feel the power Tokyto http://puu.sh/sxKEj/df998583df.png || Hope for the best. || TS: 193.87.175.2
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #DGW_clan 2 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #AoS_clan 2 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #OSS_clan 2 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #party 1 :[+nt] Welcome to the party-line. There are lots of people in here, hang around! | Commands and Information: https://pastebin.com/raw/nVwTFfDy
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #noobs 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #aeolus 557 :[+nt] Moderator report form: http://bit.ly/2a9Yg5i || See http://faforeverdevblog.tumblr.com for dev news || FAF Discord : discord.gg/hgvj6Af || Constant outbound traffic blocked? Try http://bit.ly/2aFi6EZ  || FAF Facebook: https://goo.gl/d5Lh1n
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #opers 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #poker 9 : NEIN
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #COM_clan 4 :[+n] upcoming tuesday epic civ game of autism
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #BB_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #CSh_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #BC_clan 4 :[+nt] BH life, earlier: http://www.smbc-comics.com/comics/1446479923-20151102.png now: http://forums.faforever.com/viewtopic.php?f=2&t=14304
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #123_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #Cro_clan 2 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #<3_clan 5 :[+nt] https://media.discordapp.net/attachments/197042721540538372/384127559618789376/Untitled-2.png?width=513&height=560
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #ZEN_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #BTP_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #TheBattleStar_admin 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #moderators 7 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #newbie 189 :[+nt] New Player? Ask your questions below || FAF Discord : discord.gg/hgvj6Af || Wiki: https://wiki.faforever.com || Forums: http://forums.faforever.com/ || Type !help for a list of bot commands
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #GB_clan 8 :[+nt] Welcome to GB - in house 3v3 tournement http://challonge.com/ke11jbim discuss teams in the google doc, all are welcome, starts when you guys play your games xD  https://www.youtube.com/watch?v=WeYsTmIzjkw
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #w_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #delusions 1 :[+nt] 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #DK_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #TSQ_clan 5 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #acu 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #MGF_clan 2 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #IC_clan 2 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #JEW_clan 7 :[+nt] Let us play the JEWish piano https://youtu.be/DF7WY1OjCxs
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #FMX_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #MBS_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #announcements 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #smurfs 2 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #BFA_clan 7 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #LSC_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #RB_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #PLD_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #SC_clan 4 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #LMS_clan 3 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #ONI_clan 5 : AMAZING LINK: http://server3.fightz.io/
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #BAW_clan 12 :[+nt] Discord: https://discord.gg/nxgQG44 | Clan Training: http://bit.ly/2s0HL0J | (͡ ͡° ͜ �?� ͡͡°)
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #UEF_clan 9 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #KRU_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #shadows 2 :[+nt] 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #OT_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #testtourney 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #SFo_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #THG_clan 1 : 
+[TheBattleStar]:irc.faforever.com 322 TheBattleStar #PhX_clan 1 : 
+[TheBattleStar]:irc.faforever.com 323 TheBattleStar :End of /LIST
+[TheBattleStar]:TheBattleStar!PircBot@1BF97D83.C4183B36.4731D30F.IP JOIN :#TheBattleStar_admin
+[TheBattleStar]:irc.faforever.com 353 TheBattleStar = #TheBattleStar_admin :TheBattleStar PegasusScourge 
+[TheBattleStar]:irc.faforever.com 366 TheBattleStar #TheBattleStar_admin :End of /NAMES list.
+[TheBattleStar]:TheBattleStar!PircBot@1BF97D83.C4183B36.4731D30F.IP JOIN :#TheBattleStar_blocked
+[TheBattleStar]:irc.faforever.com 353 TheBattleStar = #TheBattleStar_blocked :@TheBattleStar 
+[TheBattleStar]:irc.faforever.com 366 TheBattleStar #TheBattleStar_blocked :End of /NAMES list.
+[TheBattleStar]:PegasusScourge!181229@1BF97D83.C4183B36.4731D30F.IP PRIVMSG #TheBattleStar_admin :!help
+[TheBattleStar]>>>PRIVMSG #TheBattleStar_admin :Admin commands: !bs_reloadcfg, !bs_notice, !bs_type, !bs_act, !invade, !bs_join, !bs_leave, !bs_listChannel, !bs_exit
+[TheBattleStar]>>>PRIVMSG #TheBattleStar_admin :Avaliable Commands: !freepoints, !ping, !lenny, !ram, !whoisowner, !channelType
+[TheBattleStar]:PegasusScourge!181229@1BF97D83.C4183B36.4731D30F.IP PRIVMSG #TheBattleStar_admin :!op TheBattleStar
+[TheBattleStar]>>>PRIVMSG #TheBattleStar_admin :Who, me?
+[TheBattleStar]:PegasusScourge!181229@1BF97D83.C4183B36.4731D30F.IP PRIVMSG #TheBattleStar_admin :Yes you, TheBattleStar
+[TheBattleStar]>>>PRIVMSG #TheBattleStar_admin :Excuse me?
+[TheBattleStar]:PegasusScourge!181229@1BF97D83.C4183B36.4731D30F.IP PRIVMSG #TheBattleStar_admin :XD
+[TheBattleStar]PING :irc.faforever.com
+[TheBattleStar]>>>PONG :irc.faforever.com
+[TheBattleStar]:PegasusScourge!181229@1BF97D83.C4183B36.4731D30F.IP PRIVMSG #TheBattleStar_admin :!bs_exit
+[TheBattleStar]>>>PART #TheBattleStar_admin
+[TheBattleStar]>>>PART #TheBattleStar_blocked
+[TheBattleStar]>>>QUIT :

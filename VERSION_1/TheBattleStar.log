@@ -1,0 +1,132 @@
+TheBattleStar: Pirc IRC bot
+1514363067920 *** Connected to server.
+1514363067920 >>>NICK TheBattleStar
+1514363067920 >>>USER PircBot 8 * :PircBot 1.5.0 Java IRC Bot - www.jibble.org
+1514363067945 :irc.faforever.com NOTICE * :*** Looking up your hostname...
+1514363067970 :irc.faforever.com NOTICE * :*** Couldn't resolve your hostname; using your IP address instead
+1514363067970 PING :4CD68CC0
+1514363067970 >>>PONG :4CD68CC0
+1514363068051 :irc.faforever.com 001 TheBattleStar :Welcome to the FAForever IRC Network TheBattleStar!PircBot@31.205.1.117
+1514363068077 :irc.faforever.com 002 TheBattleStar :Your host is irc.faforever.com, running version UnrealIRCd-4.0.1
+1514363068077 :irc.faforever.com 003 TheBattleStar :This server was created Mon Oct 9 2017 at 06:53:13 UTC
+1514363068077 :irc.faforever.com 004 TheBattleStar irc.faforever.com UnrealIRCd-4.0.1 iowrsxzdHtIRqpWGTSB lvhopsmntikraqbeIzMQNRTOVKDdGLPZSCcf
+1514363068077 *** Logged onto server.
+1514363068077 >>>LIST
+1514363068077 :irc.faforever.com 005 TheBattleStar UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=20 CHANLIMIT=#:20 MAXLIST=b:60,e:60,I:60 MAXNICKLEN=30 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+1514363068077 :irc.faforever.com 005 TheBattleStar MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kLf,l,psmntirzMQNRTOVKDdGPZSCc NETWORK=FAForever CASEMAPPING=ascii EXTBAN=~,SOcaRrnqj ELIST=MNUCT :are supported by this server
+1514363068077 :irc.faforever.com 005 TheBattleStar STATUSMSG=~&@%+ EXCEPTS INVEX CMDS=USERIP,STARTTLS,KNOCK,DCCALLOW,MAP :are supported by this server
+1514363068077 :irc.faforever.com 396 TheBattleStar 1BF97D83.C4183B36.4731D30F.IP :is now your displayed host
+1514363068077 :irc.faforever.com 251 TheBattleStar :There are 1 users and 329 invisible on 2 servers
+1514363068077 :irc.faforever.com 252 TheBattleStar 11 :operator(s) online
+1514363068077 :irc.faforever.com 253 TheBattleStar 1 :unknown connection(s)
+1514363068077 :irc.faforever.com 254 TheBattleStar 46 :channels formed
+1514363068077 :irc.faforever.com 255 TheBattleStar :I have 319 clients and 1 servers
+1514363068077 :irc.faforever.com 265 TheBattleStar 319 1169 :Current local users 319, max 1169
+1514363068077 :irc.faforever.com 266 TheBattleStar 330 1222 :Current global users 330, max 1222
+1514363068077 :irc.faforever.com 375 TheBattleStar :- irc.faforever.com Message of the Day - 
+1514363068077 :irc.faforever.com 372 TheBattleStar :- 9/10/2017 4:54
+1514363068077 :irc.faforever.com 372 TheBattleStar :- Welcome to Forged Alliance Forever
+1514363068077 :irc.faforever.com 376 TheBattleStar :End of /MOTD command.
+1514363068077 :TheBattleStar MODE TheBattleStar :+iwx
+Run connect: #TheBattleStar_admin, startsLocked = false, shouldAdmin = true
+1514363068091 >>>JOIN #TheBattleStar_admin
+Run connect: #TheBattleStar_blocked, startsLocked = true, shouldAdmin = false
+1514363068091 >>>JOIN #TheBattleStar_blocked
+1514363068102 :irc.faforever.com 321 TheBattleStar Channel :Users  Name
+1514363068103 :irc.faforever.com 322 TheBattleStar #lewd 1 :[+nt] flat is justice
+1514363068103 :irc.faforever.com 322 TheBattleStar #1 1 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #paul 2 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #SNF_clan 6 :[+nt] Never give up, Never surrender! || http://specialnoobforces.boards.net/thread/19/50-clan-tournament
+1514363068103 :irc.faforever.com 322 TheBattleStar #babechannel 3 :[+nt] HEIL HITLER
+1514363068103 :irc.faforever.com 322 TheBattleStar #qai_channel 1 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #PSI_clan 1 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #A_clan 2 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #SIR_clan 1 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #PRO_clan 2 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #e_clan 1 :[+nt] Our culture & history: https://puu.sh/rrMwe/6565246879.png || Feel the power Tokyto http://puu.sh/sxKEj/df998583df.png || Hope for the best. || TS: 193.87.175.2
+1514363068103 :irc.faforever.com 322 TheBattleStar #OSS_clan 2 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #party 1 :[+nt] Welcome to the party-line. There are lots of people in here, hang around! | Commands and Information: https://pastebin.com/raw/nVwTFfDy
+1514363068103 :irc.faforever.com 322 TheBattleStar #HEL_clan 1 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #noobs 1 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #aeolus 279 :[+nt] Moderator report form: http://bit.ly/2a9Yg5i || See http://faforeverdevblog.tumblr.com for dev news || FAF Discord : discord.gg/hgvj6Af || Constant outbound traffic blocked? Try http://bit.ly/2aFi6EZ  || FAF Facebook: https://goo.gl/d5Lh1n
+1514363068103 :irc.faforever.com 322 TheBattleStar #opers 1 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #poker 5 : NEIN
+1514363068103 :irc.faforever.com 322 TheBattleStar #COM_clan 7 :[+n] upcoming tuesday epic civ game of autism
+1514363068103 :irc.faforever.com 322 TheBattleStar #OvO_clan 1 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #BC_clan 4 :[+nt] BH life, earlier: http://www.smbc-comics.com/comics/1446479923-20151102.png now: http://forums.faforever.com/viewtopic.php?f=2&t=14304
+1514363068103 :irc.faforever.com 322 TheBattleStar #123_clan 1 : 
+1514363068103 :irc.faforever.com 322 TheBattleStar #BF_clan 1 : 
+1514363068104 :irc.faforever.com 322 TheBattleStar #TVC_clan 1 : 
+1514363068104 :irc.faforever.com 322 TheBattleStar #<3_clan 2 :[+nt] https://media.discordapp.net/attachments/197042721540538372/384127559618789376/Untitled-2.png?width=513&height=560
+1514363068104 :irc.faforever.com 322 TheBattleStar #ZEN_clan 1 : 
+1514363068104 :irc.faforever.com 322 TheBattleStar #moderators 4 : 
+1514363068104 :irc.faforever.com 322 TheBattleStar #newbie 120 :[+nt] New Player? Ask your questions below || FAF Discord : discord.gg/hgvj6Af || Wiki: https://wiki.faforever.com || Forums: http://forums.faforever.com/ || Type !help for a list of bot commands
+1514363068104 :irc.faforever.com 322 TheBattleStar #GB_clan 3 :[+nt] Welcome to GB - in house 3v3 tournement http://challonge.com/ke11jbim discuss teams in the google doc, all are welcome, starts when you guys play your games xD  https://www.youtube.com/watch?v=WeYsTmIzjkw
+1514363068128 :irc.faforever.com 322 TheBattleStar #GMO_clan 1 : 
+1514363068128 :irc.faforever.com 322 TheBattleStar #delusions 1 :[+nt] 
+1514363068128 :irc.faforever.com 322 TheBattleStar #acu 1 : 
+1514363068128 :irc.faforever.com 322 TheBattleStar #MGF_clan 1 : 
+1514363068128 :irc.faforever.com 322 TheBattleStar #VoR_clan 1 : 
+1514363068128 :irc.faforever.com 322 TheBattleStar #JEW_clan 4 :[+nt] Let us play the JEWish piano https://youtu.be/DF7WY1OjCxs
+1514363068128 :irc.faforever.com 322 TheBattleStar #FMX_clan 1 : 
+1514363068128 :irc.faforever.com 322 TheBattleStar #announcements 1 : 
+1514363068128 :irc.faforever.com 322 TheBattleStar #smurfs 2 : 
+1514363068128 :irc.faforever.com 322 TheBattleStar #BFA_clan 4 : 
+1514363068128 :irc.faforever.com 322 TheBattleStar #LSC_clan 1 : 
+1514363068128 :irc.faforever.com 322 TheBattleStar #SC_clan 3 : 
+1514363068128 :irc.faforever.com 322 TheBattleStar #ONI_clan 4 : AMAZING LINK: http://server3.fightz.io/
+1514363068128 :irc.faforever.com 322 TheBattleStar #BAW_clan 4 :[+nt] Discord: https://discord.gg/nxgQG44 | Clan Training: http://bit.ly/2s0HL0J | (͡ ͡° ͜ �?� ͡͡°)
+1514363068128 :irc.faforever.com 322 TheBattleStar #UEF_clan 3 : 
+1514363068128 :irc.faforever.com 322 TheBattleStar #shadows 1 :[+nt] 
+1514363068128 :irc.faforever.com 322 TheBattleStar #testtourney 1 : 
+1514363068128 :irc.faforever.com 323 TheBattleStar :End of /LIST
+1514363068192 :TheBattleStar!PircBot@1BF97D83.C4183B36.4731D30F.IP JOIN :#TheBattleStar_admin
+1514363068193 :irc.faforever.com 353 TheBattleStar = #TheBattleStar_admin :@TheBattleStar 
+1514363068193 :irc.faforever.com 366 TheBattleStar #TheBattleStar_admin :End of /NAMES list.
+1514363068193 :TheBattleStar!PircBot@1BF97D83.C4183B36.4731D30F.IP JOIN :#TheBattleStar_blocked
+1514363068193 :irc.faforever.com 353 TheBattleStar = #TheBattleStar_blocked :@TheBattleStar 
+1514363068193 :irc.faforever.com 366 TheBattleStar #TheBattleStar_blocked :End of /NAMES list.
+1514363082259 :PegasusScourge!181229@1BF97D83.C4183B36.4731D30F.IP JOIN :#TheBattleStar_admin
+1514363095138 :PegasusScourge!181229@1BF97D83.C4183B36.4731D30F.IP PRIVMSG #TheBattleStar_admin :!help
+1514363095138 >>>PRIVMSG #TheBattleStar_admin :Admin commands: !bs_reloadcfg, !bs_notice, !bs_type, !bs_act, !invade, !bs_join, !bs_leave, !bs_listChannel, !bs_exit
+1514363096138 >>>PRIVMSG #TheBattleStar_admin :Avaliable Commands: !freepoints, !ping, !lenny, !ram, !whoisowner, !channelType
+1514363102787 :PegasusScourge!181229@1BF97D83.C4183B36.4731D30F.IP PRIVMSG #TheBattleStar_admin :!bs_join #ONI_clan
+1514363102787 >>>JOIN #ONI_clan
+1514363102788 ### Your implementation of PircBot is faulty and you have
+1514363102788 ### allowed an uncaught Exception or Error to propagate in your
+1514363102788 ### code. It may be possible for PircBot to continue operating
+1514363102788 ### normally. Here is the stack trace that was produced: -
+1514363102788 ### 
+1514363102788 ### java.util.ConcurrentModificationException
+1514363102788 ### 	at java.base/java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+1514363102788 ### 	at java.base/java.util.ArrayList$Itr.next(Unknown Source)
+1514363102788 ### 	at Bot.onMessage(Bot.java:168)
+1514363102788 ### 	at org.jibble.pircbot.PircBot.handleLine(PircBot.java:990)
+1514363102788 ### 	at org.jibble.pircbot.InputThread.run(InputThread.java:92)
+1514363102812 :TheBattleStar!PircBot@1BF97D83.C4183B36.4731D30F.IP JOIN :#ONI_clan
+1514363102878 :irc.faforever.com 332 TheBattleStar #ONI_clan :AMAZING LINK: http://server3.fightz.io/
+1514363102878 :irc.faforever.com 333 TheBattleStar #ONI_clan Rowey 1514341380
+1514363102878 :irc.faforever.com 353 TheBattleStar = #ONI_clan :TheBattleStar PegasusScourge BRNKoINSANITY BigPriapism Lape 
+1514363102878 :irc.faforever.com 366 TheBattleStar #ONI_clan :End of /NAMES list.
+1514363111244 :PegasusScourge!181229@1BF97D83.C4183B36.4731D30F.IP PRIVMSG #TheBattleStar_admin :!bs_leave #ONI_clan
+1514363111245 >>>PART #ONI_clan
+1514363111245 ### Your implementation of PircBot is faulty and you have
+1514363111245 ### allowed an uncaught Exception or Error to propagate in your
+1514363111245 ### code. It may be possible for PircBot to continue operating
+1514363111245 ### normally. Here is the stack trace that was produced: -
+1514363111245 ### 
+1514363111245 ### java.util.ConcurrentModificationException
+1514363111245 ### 	at java.base/java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+1514363111245 ### 	at java.base/java.util.ArrayList$Itr.next(Unknown Source)
+1514363111245 ### 	at Bot.onMessage(Bot.java:168)
+1514363111245 ### 	at org.jibble.pircbot.PircBot.handleLine(PircBot.java:990)
+1514363111245 ### 	at org.jibble.pircbot.InputThread.run(InputThread.java:92)
+1514363111270 :TheBattleStar!PircBot@1BF97D83.C4183B36.4731D30F.IP PART #ONI_clan
+1514363201402 PING :irc.faforever.com
+1514363201402 >>>PONG :irc.faforever.com
+1514363291490 PING :irc.faforever.com
+1514363291490 >>>PONG :irc.faforever.com
+1514363332835 :PegasusScourge!181229@1BF97D83.C4183B36.4731D30F.IP PRIVMSG #TheBattleStar_admin :!bs_exit
+1514363332835 >>>PART #TheBattleStar_admin
+1514363332835 >>>PART #TheBattleStar_blocked
+1514363332835 >>>QUIT :
