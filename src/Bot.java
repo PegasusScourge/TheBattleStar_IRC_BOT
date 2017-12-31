@@ -185,6 +185,9 @@ public class Bot extends PircBot{
 		String login = "default";
 		String hostname = "default";
 		
+		//this.sendMessage(channel, message);
+		log("Simulated message from \"" + sender + "\" to channel \"" + channel + "\" of content \"" + message + "\"");
+		
 		Channel cs[] = book.getChannels();
 		for(int i=0; i < cs.length; i++){
 			if(cs[i] != null){
@@ -195,6 +198,7 @@ public class Bot extends PircBot{
 				}
 			}
 		}
+		
 	}
 	
 	public void onJoin(String channel, String sender, String login, String hostname){
