@@ -84,16 +84,23 @@ public class BotGUI implements ActionListener{
 	public void actionPerformed(ActionEvent e){
 		String cmd = e.getActionCommand();
 		long when = e.getWhen();
-		
+		String cc;
+		String tcmd;
 		switch(cmd){
 			case "button:customCommand:clicked":
 				//Create a dialog getting command
 				bot.log("Custom command request detected");
+				cc = getUserInput("Custom Command", "Input an IRC channel to execute command in:");
+				tcmd = getUserInput("Custom Command", "Input the command to execute:");
+				bot.simulateOnMessage(cc,"TheBattleStar",tcmd);
 			break;
 			
 			case "button:sendMessage:clicked":
 				//Bring up the send message dialog
 				bot.log("Send message request detected");
+				cc = getUserInput("Custom Command", "Input an IRC channel to send to:");
+				tcmd = getUserInput("Custom Command", "Input the text to send:");
+				bot.simulateOnMessage("#TheBattleStar_admin","TheBattleStar","!bs_type " + cc + " " + tcmd);
 			break;
 			
 			case "button:closeBot:clicked":
@@ -112,6 +119,18 @@ public class BotGUI implements ActionListener{
 				bot.log("Unknown event command recieved at " + when + ": \"" + cmd + "\"");
 			break;
 		}
+	}
+	
+	private final String getUserInput(String title, String question){
+		String s = (String)JOptionPane.showInputDialog(
+                    null,
+                    question,
+                    title,
+                    JOptionPane.QUESTION_MESSAGE,
+                    null,
+                    null,
+                    "");
+		return s;
 	}
 	
 	public final void hideWindow(){
