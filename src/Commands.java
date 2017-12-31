@@ -152,7 +152,7 @@ public class Commands{
 	}
 	
 	private void reactToChat(String sender, String login, String hostname, String message){
-		if(message.contains(parent.bot.getNick())){
+		if(message.contains(parent.bot.getNick()) && !sender.equals(parent.bot.getNick())){
 			try{
 				Thread.sleep(500);
 			}catch(Exception e){
