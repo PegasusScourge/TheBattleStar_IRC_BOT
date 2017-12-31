@@ -182,6 +182,11 @@ public class Bot extends PircBot{
     }
 	
 	public void simulateOnMessage(String channel, String sender, String message){
+		if((channel == null) || (sender == null) || (message == null)){
+			log("Invalid simulateOnMessage, one or more arguments were null!");
+			return;
+		}
+		
 		String login = "default";
 		String hostname = "default";
 		
